@@ -1,0 +1,10 @@
+---
+- name: Update Homebrew and all packages
+  community.general.homebrew:
+    update_homebrew: true
+    upgrade_all: true
+
+- name: Upgrade all Homebrew Casks with Greedy option
+  community.general.homebrew_cask:
+    upgrade_all: true
+    greedy: true

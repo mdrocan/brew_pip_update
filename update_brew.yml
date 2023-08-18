@@ -1,0 +1,7 @@
+---
+- name: Playbook update_brew.yml
+  hosts: localhost
+  roles:
+    - update
+  vars:
+    ansible_connection: local
