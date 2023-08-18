@@ -9,7 +9,7 @@
     upgrade_all: true
     greedy: true
 
-- name: Pip self-update
+- name: Update Pip
   pip:
     name: pip
     state: latest
