@@ -3,3 +3,6 @@ Will be as an alternative for the bash scripts found from the shell-scripts repo
 
 # Script execution
 - Execute with: `ansible-playbook update_brew.yml`
+
+# Requirements
+- Homebrew must already be installed on the target system
