@@ -1,4 +1,4 @@
-# Ansible version for brew and pip update
+# Ansible version for brew_check and pip_check
 To be as an alternative for bash scripts in shell-scripts repo: https://github.com/mdrocan/shell-scripts
 
 # script execution
