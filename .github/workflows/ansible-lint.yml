@@ -1,0 +1,16 @@
+name: ansible-lint
+
+on:
+  push:
+    branches-ignore:
+      - master
+
+  workflow_dispatch:
+  
+jobs:
+  build:
+    name: Ansible Lint
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run ansible-lint
+        uses: ansible/ansible-lint@main
