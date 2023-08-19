@@ -10,6 +10,6 @@
     greedy: true
 
 - name: Update Pip
-  pip:
+  ansible.builtin.pip:
     name: pip
     state: latest
