@@ -13,3 +13,4 @@
   ansible.builtin.pip:
     name: pip
     state: latest
+    update_only: true
