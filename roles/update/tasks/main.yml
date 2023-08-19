@@ -8,3 +8,8 @@
   community.general.homebrew_cask:
     upgrade_all: true
     greedy: true
+
+- name: Update Pip
+  ansible.builtin.pip:
+    name: pip
+    state: latest
