@@ -1,8 +1,8 @@
 # Maintaining local environment with Ansible
-Will be as an alternative for the bash scripts found from the shell-scripts repo: https://github.com/mdrocan/shell-scripts
+Will be as an alternative for the bash scripts found from the shell-scripts repo: <https://github.com/mdrocan/shell-scripts>
 
-# Script execution
+## Script execution
 - Execute with: `ansible-playbook update_brew.yml`
 
-# Requirements
+## Requirements
 - Homebrew must already be installed on the target system
