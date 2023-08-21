@@ -1,0 +1,24 @@
+name: CI-check
+
+on:
+  push:
+    branches-ignore:
+      - master
+
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: macos12
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Lint Code Base
+        uses: super-linter/super-linter/slim@v5
+        env:
+          VALIDATE_ALL_CODEBASE: true
+          DEFAULT_BRANCH: master
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
