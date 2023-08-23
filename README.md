@@ -10,4 +10,4 @@ Will be as an alternative for the bash scripts found from the shell-scripts repo
 ### About
 Linter verified software
 
-[![GitHub Super-Linter](https://github.com/mdrocan/brew_pip_update/workflows/CI-check/badge.svg)](https://github.com/marketplace/actions/super-linter)
+[![MegaLinter](https://github.com/mdrocan/brew_pip_update/workflows/CI-check/badge.svg?branch=master)](https://github.com/mdrocan/brew_pip_update/actions?query=workflow%3ACI-check+branch%3Amaster)
