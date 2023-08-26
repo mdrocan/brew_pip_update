@@ -1,4 +1,16 @@
 ---
+- name: Check Homebrew is installed
+  stat: path=/usr/local/bin/brew || path=/opt/homebrew/bin/brew
+  register: brew_installed
+
+- name: Install Homebrew
+  shell: ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  when: brew_installed.stat.exists == false
+
+- name: Check homebrew-cask is installed
+  stat: path=/usr/local/bin/brew-cask.rb || path=/opt/homebrew/bin/brew-cask.rb
+  register: brew_cask_installed
+
 - name: Update Homebrew and all packages
   community.general.homebrew:
     update_homebrew: true
