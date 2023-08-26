@@ -10,4 +10,4 @@ Will be as an alternative for the bash scripts found from the shell-scripts repo
 ### About
 Linter verified software
 
-[![MegaLinter](https://github.com/mdrocan/brew_pip_update/workflows/Megalinter/badge.svg?branch=main)](https://github.com/mdrocan/brew_pip_update/actions?query=workflow%3AMegalinter+branch%3Amain)
+[![MegaLinter](https://github.com/mdrocan/brew_pip_update/workflows/MegaLinter/badge.svg?branch=main)](https://github.com/mdrocan/brew_pip_update/actions?query=workflow%3AMegaLinter+branch%3Amain)
