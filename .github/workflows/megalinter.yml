@@ -1,5 +1,5 @@
 ---
-name: CI-check
+name: MegaLinter
 
 on: # yamllint disable-line rule:truthy
   push:
