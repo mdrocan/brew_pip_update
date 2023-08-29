@@ -11,3 +11,6 @@ ENABLE_LINTERS:
   - YAML_YAMLLINT
   - PYTHON_PYLINT
 ANSIBLE_DIRECTORY: .
+PRE_COMMANDS:
+  - command: pip install requests
+    venv: requests
