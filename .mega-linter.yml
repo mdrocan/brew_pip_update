@@ -10,4 +10,8 @@ SHOW_ELAPSED_TIME: true
 ANSIBLE_DIRECTORY: .
 ENABLE_LINTERS:
   - ANSIBLE_ANSIBLE_LINT
-
+  - MARKDOWN_MARKDOWNLINT
+  - MARKDOWN_MARKDOWN_TABLE_FORMATTER
+PRE_COMMANDS:
+  - command: pip install --upgrade ansible-lint
+    venv: ansible-lint
