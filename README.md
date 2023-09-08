@@ -15,7 +15,10 @@ fatal: [localhost]: FAILED! => {"changed": false, "msg": "Warning: These files w
 ## Requirements
 - Homebrew must already be installed on the target system
 
-### About
-Linter verified software
+## Next steps
+- Create same functionality for local testing and with Github Actions
+
+## Quality aspect
+- Linter verified software
 
 [![MegaLinter](https://github.com/mdrocan/brew_pip_update/workflows/MegaLinter/badge.svg?branch=main)](https://github.com/mdrocan/brew_pip_update/actions?query=workflow%3AMegaLinter+branch%3Amain)
