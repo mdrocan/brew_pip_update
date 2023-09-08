@@ -13,3 +13,9 @@
   ansible.builtin.pip:
     name: pip
     state: latest # noqa package-latest
+
+- name: List installed pip packages
+  community.general.pip_package_info:
+    clients: pip
+  register: pip_packages
+## todo fix the 'pip list -o' kind of functionality from previous dict
