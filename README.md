@@ -15,6 +15,8 @@ fatal: [localhost]: FAILED! => {"changed": false, "msg": "Warning: These files w
 ## Requirements
 - Homebrew must already be installed on the target system
 
+## Next steps
+- Create same functionality for local testing and with Github Actions
 ### About
 Linter verified software
 
