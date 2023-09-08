@@ -12,4 +12,4 @@
 - name: Update Pip
   ansible.builtin.pip:
     name: pip
-    state: latest
+    state: latest  # noqa package-latest
