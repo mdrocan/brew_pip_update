@@ -12,7 +12,7 @@
 - name: Update Pip
   ansible.builtin.pip:
     name: pip
-    state: latest
+    state: latest # noqa package-latest
 
 - name: List installed pip packages
   community.general.pip_package_info:
