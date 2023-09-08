@@ -23,7 +23,7 @@ jobs:
           fetch-depth: 0
 
       - name: Lint Code Base with MegaLinter
-        uses: oxsecurity/megalinter/flavors/cupcake@v7.3.0
+        uses: oxsecurity/megalinter/flavors/python@beta
         env:
           VALIDATE_ALL_CODEBASE: true
           DEFAULT_BRANCH: master

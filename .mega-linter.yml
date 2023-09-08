@@ -1,8 +1,13 @@
 ---
 DISABLE_LINTERS:
   - SPELL_CSPELL
-# ENABLE: ANSIBLE
-#   - PYTHON
-#   - YAML
-APPLY_FIXES: all
+# APPLY_FIXES: all
 SHOW_ELAPSED_TIME: true
+ANSIBLE_DIRECTORY: .
+ANSIBLE_ROLES_PATH: roles
+ENABLE_LINTERS:
+  - YAML_PRETTIER
+  - YAML_YAMLLINT
+PRE_COMMANDS:
+  - command: pip install --upgrade ansible-lint
+    venv: ansible-lint
